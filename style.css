@@ -173,7 +173,7 @@ header {
 /* BANNIERE */
   /* Accueil */
 #banner_accueil {
-  background: url("images/banniere_accueil.jpg");
+  background: url("images/accueil/banniere_accueil.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -181,7 +181,7 @@ header {
 
   /* Asie */
 #banner_asie {
-  background: url("images/banniere_asie.jpg");
+  background: url("images/asie/banniere_asie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -285,6 +285,30 @@ main {
   border-top: 2px solid #4d4d4d;
   color: #fff;
   z-index: 100;
+}
+
+
+.bloc_pays {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.bloc_pays h2 {
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+
+.bloc_pays article {
+  flex: 1;
+}
+
+
+.bloc_pays img {
+  height: 300px;
 }
 /*////////////////*/
 /* FOOTER */
