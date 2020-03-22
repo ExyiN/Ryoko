@@ -306,6 +306,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   width: 80%;
+  min-width: 500px;
   margin: 20px auto;
   padding: 5px 40px;
   background: rgba(0,0,0,0.6);
