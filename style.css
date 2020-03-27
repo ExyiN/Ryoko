@@ -2,6 +2,7 @@
 
 /* POLICES */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 /*/////////////*/
 /* BODY */
 body {
@@ -187,6 +188,14 @@ header {
   background-attachment: fixed;
 }
 
+/* Europe */
+#banner_europe {
+    background: url("images/europe/banniere_europe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Général */
 .banner {
   height: 80vh;
@@ -253,14 +262,14 @@ header {
 }
 
 
-#menu_pays {
+.menu_pays {
   display: flex;
   justify-content: space-between;
   width: 400px;
 }
 
 
-#menu_pays a {
+.menu_pays a {
   text-decoration: none;
   text-align: center;
   color: #4d4d4d;
@@ -269,8 +278,12 @@ header {
   font-weight: bold;
 }
 
+#pays_eu a:hover {
+  color: #134998;
+}
 
-#menu_pays a:hover {
+
+#pays_as a:hover {
  color: #c80000;
 }
 /*//////////////////*/
@@ -286,12 +299,64 @@ main {
   z-index: 100;
 }
 
+/* Elements de l'écran d'acceuil */
 
+.title {
+    text-align: center;
+}
+
+#quote_acc {
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 1.5em;
+}
+
+/* Fond des pays de chaque continent */
+/* EUROPE */
+#fra {
+    background: url("images/europe/fond_france.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#gbr {
+    background: url("images/europe/fond_ru.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#isl {
+    background: url("images/europe/fond_islande.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ASIE */
 #jap {
   background: url("images/asie/sectionjap.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+/* Elements de chaque continent */
+.intro {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ebebeb;
+}
+
+
+.intro p {
+    width: 80%;
+    padding: 5px 0px;
+    text-align: justify;
+    color: #000;
+    font-size: 0.9em;
 }
 
 
@@ -309,8 +374,9 @@ main {
   min-width: 350px;
   margin: 20px auto;
   padding: 5px 40px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.4);
   border: 2px solid #282830;
+  border-radius: 20px;
 }
 
 
@@ -322,13 +388,13 @@ main {
 
 
 .bloc_pays_texte article {
-  width: 60%;
+  width: 55%;
   min-width: 350px;
   max-height: 300px;
   padding: 0 20px;
   border: 1px solid rgba(255,255,255,0.4);
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 20px 20px;
 }
 
 
@@ -340,8 +406,9 @@ main {
 
 
 .bloc_pays_texte img {
+  max-width: 400px;
   height: 300px;
-  margin: 20px 0;
+  margin: 20px 20px;
   border: 1px solid transparent;
   border-radius: 10px;
 }
