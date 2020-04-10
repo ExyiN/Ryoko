@@ -196,6 +196,14 @@ header {
     background-attachment: fixed;
 }
 
+/*Afrique*/
+#banner_afrique {
+    background: url("images/afrique/banniere_afrique.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Général */
 .banner {
   height: 80vh;
@@ -286,6 +294,10 @@ header {
 #pays_as a:hover {
  color: #c80000;
 }
+
+#pays_af a:hover {
+    color: #c8ec18;
+}
 /*//////////////////*/
 /* MAIN */
 main {
@@ -337,6 +349,29 @@ main {
 /* ASIE */
 #jap {
   background: url("images/asie/sectionjap.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* AFRIQUE */
+
+#egy {
+  background: url("images/afrique/fond_egypte.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#mrc {
+  background: url("images/afrique/fond_maroc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#tan {
+  background: url("images/afrique/fond_tanzanie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -402,6 +437,7 @@ main {
   text-align: justify;
   max-height: 200px;
   overflow-y: auto;
+  padding-right: 30px;
 }
 
 
