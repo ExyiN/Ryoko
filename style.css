@@ -414,6 +414,20 @@ main {
   background-attachment: fixed;
 }
 
+#can {
+  background: url("images/amerique/sectioncan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#bre {
+  background: url("images/amerique/sectionbre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* AFRIQUE */
 
 #egy {
