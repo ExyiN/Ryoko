@@ -4,6 +4,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 /*/////////////*/
+/* ANIMATIONS */
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*/////////////////*/
 /* BODY */
 body {
   margin: 0;
@@ -155,7 +165,7 @@ header {
 
 
 .contact_icon {
-	height: 20px;
+	height: 25px;
 }
 
 
@@ -228,6 +238,7 @@ header {
   justify-content: center;
   align-items: center;
   background: rgba(0,0,0,0.4);
+  animation: 2s fade_in;
 }
 
 
@@ -378,6 +389,14 @@ main {
 
 #cor {
   background: url("images/asie/sectioncor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* AMERIQUE */
+#usa {
+  background: url("images/amerique/sectionusa.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
