@@ -184,7 +184,7 @@ header {
 /* BANNIERE */
   /* Accueil */
 #banner_accueil {
-  background: url("images/accueil/banniere_accueil.jpg");
+  background: url("images/accueil/banniere_accueil.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -196,6 +196,14 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+/* Amérique */
+#banner_amerique {
+background: url("images/amerique/banniere_am.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 /* Europe */
@@ -312,6 +320,10 @@ header {
 
 #pays_as a:hover {
  color: #c80000;
+}
+
+#pays_am a:hover {
+ color: #0033B6;
 }
 
 
